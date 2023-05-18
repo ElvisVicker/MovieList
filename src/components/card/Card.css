@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.containerCards {
+    /* display: inline-flex; */
+    width: 90%;
+    margin: 60px auto;
+
+    gap: 40px;
+}
+
+.cards {
+    border: 2px solid rgb(89, 2, 196);
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(68, 0, 131);
+    height: 500px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.cards:hover {
+    transform: scale(1.15);
+    transition: 0.6s;
+    z-index: 3;
+}
+
+.cardImg {
+    width: auto;
+    height: 70%;
+
+   
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(68, 0, 131);
+}
+
+.cardRelease {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(68, 0, 131);
+}
+
+.cardVote {
+    font-weight: bold;
+    font-size: 18px;
+}
